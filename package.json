@@ -1,3 +1,4 @@
+
 {
   "name": "react-hooks-fetch-crud-lab",
   "version": "0.1.0",
@@ -41,5 +42,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": ["@testing-library/jest-dom"]
   }
+
 }
